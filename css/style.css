@@ -3,6 +3,19 @@
     font-family: 'Lato', sans-serif;
 }
 
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
 :root{
     --black:#222222;
     --pink:#F1E4E6;
@@ -426,9 +439,20 @@ text-align: left
 
 }
 
+.registr__input-sub{
+    display: flex;
+    flex-direction: column;
+}
+
 .registr__sub{
     width: 359px;
     height: 44px;
+}
+
+.registr__sub-icon{
+    width: 359px;
+    height: 44px;
+    margin-top: 20px;
 }
 
 
