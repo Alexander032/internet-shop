@@ -3,6 +3,19 @@
     font-family: 'Lato', sans-serif;
 }
 
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
 :root{
     --black:#222222;
     --pink:#F1E4E6;
@@ -84,6 +97,8 @@
     color: #F16D7F;
 }
 
+/* картинки с фоном */
+
 .sale__women{
     background-image: url(../img/SaleWomen.jpg);
     display: block;
@@ -120,6 +135,7 @@
     text-decoration: none;
 }
 
+/* распродажа */
 
 .sale{
     margin-top: 63px;
@@ -235,12 +251,15 @@
 }
 
 .column__button{
-    border: 1px solid #FF6A6A;
-    background-color: transparent;
-    height: 47px;
     width: 211px;
-    border-radius: 0px;
-    margin-top: 63px;
+    height: 47px;
+    border: 1px solid var(--dark-pink);
+    color: var(--dark-pink);
+    text-transform: capitalize;
+    border-color: none;
+    background-color: transparent;
+    margin-top: 49px;
+
 }
 
 .button__text{
@@ -311,11 +330,11 @@
     font-weight: 400;
     line-height: 24px;
     text-align: center;
-    margin-left: 230px
+    margin-left: 100px
 }
 
 .footer__subimg{
-    margin-left: 220px;
+    margin-left: 100px;
 }
 
 .footer__subtitle-text{
@@ -372,7 +391,7 @@
 .footer__copyrait-text{
     color:var(--blu);
     margin-top: 30px;
-    margin-left: 235px;
+    margin-left: 130px;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -402,6 +421,11 @@
     display:flex;
 }
 
+.registr__input-sub{
+    display: flex;
+    flex-direction: column;
+}
+
 .registr__icon-text{
     margin: 59px 0 0 120px;
     font-family: Lato;
@@ -415,20 +439,128 @@
 
 .registr__sub-text{
     margin-top: 64px;
-    margin-bottom: 21px;
+    margin-bottom: 20px;
     font-family: Lato;
-font-size: 16px;
-font-style: normal;
-font-weight: 300;
-line-height: 19px;
-letter-spacing: 0em;
-text-align: left
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19px;
+}
+
+.registr__text{
+    display: flex;
+    justify-content: space-between;
+}
+
+.registr__sub-title{
+    width: 359px;
+    height: 32px;
+    font-family: Lato;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 16px;
+    color: #B1B1B1;
+    margin-top: 15px;
+    margin-bottom: 39px;
 
 }
 
 .registr__sub{
-    width: 359px;
-    height: 44px;
+    max-width: 359px;
+    min-height: 44px;
+    border:  1px solid #A4A4A4;
+    text-indent: 20px;
+    margin-top: 20px;
+}
+
+.chekbox__sub{
+    margin-top: 32px;
+}
+
+.registr__activ{
+    background-color: var(--dark-pink);
+    width: 167px;
+    height: 50px;
+    text-transform: uppercase;
+    text-indent: 29px;
+    margin-bottom: 96px;
+}
+
+.registr__active{
+    width: 167px;
+    height: 50px;
+    background-color: var(--dark-pink);
+    text-transform: uppercase;
+    color: var(--blu);
+    border: none;
+    margin-bottom: 96px;
+    margin-left: 100px;
+}
+
+.registr__active::after{
+    content: "→";
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+/* текст группа регистрации */
+
+.text__grou{
+    margin-left: 128px;
+}
+
+.text__group{
+    text-transform: uppercase;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 29px;
+    margin-top: 64px;
+    margin-bottom: 22px;
+}
+
+.text__title-sub{
+    width: 662px;
+    height: 58px;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 29px;
+    margin-bottom: 16px;
+}
+
+.text__title{
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 29px;
+    margin-bottom: 16px;
+}
+
+.text__title-box{
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 29px;
+    margin-bottom: 16px;
+}
+
+.text__title::before{
+    content: "✓";
+    font-weight: 700;
+    margin-right: 23px;
+}
+
+.text__title-box-span{
+    text-transform: capitalize;
+}
+
+.chekbox__sub-text{
+    margin-right: 20px;
 }
 
 
