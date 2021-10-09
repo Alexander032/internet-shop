@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <div class="header__box">
+                <img class="header__logo" src="./img/logo.svg" alt="logo" width="44" height="38">
+                <img class="header__search-ico" src="./img/loupe.svg" alt="loupe" width="26" height="28">
+            </div>
+            <div class="header__box">
+                <button class="header__button header__ico" type="button"><img src="./img/burger.svg" alt="menu"
+                        width="32" height="23"></button>
+                <a class="header__ico" href="registration.html"><img src="./img/person.svg" alt="person" width="29"
+                        height="29"></a>
+                <a class="header__ico" href="#"><img src="./img/karzina.svg" alt="person" width="29" height="29"></a>
+                <nav class="header__menu">
+                    <h2 class="header__title">menu</h2>
+                    <ul class="header__menu-list">
+                        <li class="header__menu-item menu-sub-item">
+                            <h3 class="menu-sub-item__title">
+                                man
+                            </h3>
+                            <ul class="menu-sub-item__list">
+                                <li class="menu-sub-item__item">Accessories</li>
+                                <li class="menu-sub-item__item">Bags</li>
+                                <li class="menu-sub-item__item">Denim</li>
+                                <li class="menu-sub-item__item">T-Shirts</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h3>
+                                woman
+                            </h3>
+                            <ul>
+                                <li class="menu-sub-item__item">Accessories</li>
+                                <li class="menu-sub-item__item">Bags</li>
+                                <li class="menu-sub-item__item">Denim</li>
+                                <li class="menu-sub-item__item">T-Shirts</li>
+                                <li class="menu-sub-item__item">Shirts</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h3>
+                                kids
+                            </h3>
+                            <ul>
+                                <li class="menu-sub-item__item">Accessories</li>
+                                <li class="menu-sub-item__item">Bags</li>
+                                <li class="menu-sub-item__item">Denim</li>
+                                <li class="menu-sub-item__item">T-Shirts</li>
+                                <li class="menu-sub-item__item">Shirts</li>
+                                <li class="menu-sub-item__item">Bags</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main class="registr">
+        <section class="registr__icon">
+            <div class="registr__icon-block">
+                <h3 class="registr__icon-text">REGISTRATION</h3>
+            </div>
+        </section>
+        <section class="registr__text container">
+            <div class="registr__input-sub">
+                <p class="registr__sub-text">Your Name</p>
+                <input class="registr__sub" type="text" placeholder="First Name">
+                <input class="registr__sub" type="text" placeholder="Last Name">
+                <section class="chekbox__sub">
+                    <input type="radio" id="contact1hoice1" name="contact" value="Male">
+                    <label class="chekbox__sub-text" for="contactcoice1">Male</label>
+                    <input type="radio" id="contact1hoice2" name="contact" value="Female">
+                    <label for="contactcoice1">Female</label>
+                </section>
+                <p class="registr__sub-text">Login details</p>
+                <input class="registr__sub" type="email" placeholder="Email">
+                <input class="registr__sub" type="text" placeholder="Password">
+                <p class="registr__sub-title">Please use 8 or more characters, with at least 1 number and a mixture
+                    of uppercase and lowercase letters</p>
+            </div>
+            <div class="text__grou">
+                <section class="paragraf__text">
+                <h3 class="text__group">loyalty has its perks</h3>
+                </section>
+                <p class="text__title-box"><span class="text__title-box-span">get</span> in on the loyalty program where you can earn points and unlock
+                    serious perks. starting with these as soon as you join:</p>
+                <p class="text__title">15% off welcome offer</p>
+                <p class="text__title"><span class="text__title-box-span">free</span>  shipping, returns and exchanges on all orders </p>
+                <p class="text__title">$10 off a purchase on your birthday</p>
+                <p class="text__title"><span class="text__title-box-span">early</span> access to products</p>
+                <p class="text__title"><span class="text__title-box-span">exclusive</span> offers & rewards</p>
+            </div>
+        </section>
+        <div class="registr__click">
+            <form action="">
+                <button class="registr__active" type="submit">join now</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <section class="footer">
+            <ul class="footer__item">
+                <li class="footer__title">
+                    <img class="footer__subimg" src="./img/Face.svg" alt="photo">
+                    <p class="footer__subtool">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus
+                        condimentum“</p>
+                </li>
+                <li class="footer__subtitle">
+                    <p class="footer__subtitle-text"> subscribe</p>
+                    <p class="footer__subtitle-title">for our newletter and promotion</p>
+                    <form action="#">
+                        <input class="footer__email" placeholder="Enter Your Email">
+                        <button class="footer__button" type="submit">Subscribe</button>
+                    </form>
+                </li>
+            </ul>
+        </section>
+        <section class="footer__copyrait">
+            <div class="footer__copyrait-contaier">
+                <p class="footer__copyrait-text">© 2021 Brand All Rights Reserved.</p>
+                <ul class="footer__copyrait-active">
+                    <li class="footer__copyrait-left">
+                        <a href="https://www.facebook.com/" target="_blank"><img src="./img/Faceebok.svg"
+                                alt="Faceebok"></a>
+                    </li>
+                    <li class="footer__copyrait-left">
+                        <a href="https://www.instagram.com/" target="_blank"><img src="./img/instagram.svg"
+                                alt="instagram"></a>
+                    </li>
+                    <li class="footer__copyrait-left">
+                        <a href="https://www.pinterest.com/" target="_blank"><img src="./img/Pinterest.svg"
+                                alt="Pinterest"></a>
+                    </li>
+                    <li class="footer__copyrait-left">
+                        <a href="https://twitter.com/" target="_blank"><img src="./img/Twitter.svg" alt="Twitter"></a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </footer>
+</body>
+
+</html>
