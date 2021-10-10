@@ -53,9 +53,40 @@
     margin: 0 41px 0 0;
 }
 
-.header__ico{
+.header__ico-click{
     margin: 0 0 0 33px;
 }
+
+
+.header__button.header__ico:hover .button__click-text .header__menu{
+    display: block;
+    position: fixed;
+    background-color: var(--blu);
+    width:232px;
+    height: 764px;
+}
+
+.header__ico-click:hover,
+.header__ico-1:focus{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.header__button.header__ico{
+    display: inline-block;
+}
+.header__title{
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 17px;
+    text-align: left;
+    text-transform: uppercase;
+    margin:37px 0 24px 34px ;
+}
+
+
 
 .header__button{
     border: none;
@@ -262,6 +293,12 @@
 
 }
 
+.column__button:hover,
+.column__button:focus{
+    opacity: 0.6;
+    cursor: pointer;
+}
+
 .button__text{
     font-size: 16px;
     font-style: normal;
@@ -376,6 +413,12 @@
     background-color: var(--dark-pink);
     color:var(--var);
     border-style: none;
+}
+
+.footer__button:hover,
+.footer__button:focus{
+    opacity: 0.6;
+    cursor: pointer;
 }
 
 .footer__copyrait{
@@ -520,6 +563,13 @@
     margin-left: 20px;
 }
 
+.registr__active:hover,
+.registr__active:focus{
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+
 /* текст группа регистрации */
 
 .text__grou{
@@ -582,27 +632,6 @@
 
 /* menu */
 
-.header__button.header__ico:hover .button__click-text .header__menu{
-    display: block;
-    position: fixed;
-    background-color: var(--blu);
-    width:232px;
-    height: 764px;
-}
-
-.header__button.header__ico{
-    display: inline-block;
-}
-.header__title{
-    font-family: Lato;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 17px;
-    text-align: left;
-    text-transform: uppercase;
-    margin:37px 0 24px 34px ;
-}
 
 .menu__sub-item{
     font-family: Lato;
