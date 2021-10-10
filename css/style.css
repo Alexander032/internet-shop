@@ -409,6 +409,23 @@
     margin-right: 8px;
 }
 
+.target__color{
+    background-color: var(--blu);
+}
+
+.tagret__color-fist{
+    background-color: var(--dark-pink);
+}
+
+.opasyti__style:hover,
+.opasyti__style:focus{
+    opacity: 0.6;
+    cursor: pointer;
+
+}
+
+
+
 /* страница РЕГИСТАЦИЯ */
 
 .header{
@@ -561,6 +578,54 @@
 
 .chekbox__sub-text{
     margin-right: 20px;
+}
+
+/* menu */
+
+.header__button.header__ico:hover .button__click-text .header__menu{
+    display: block;
+    position: fixed;
+    background-color: var(--blu);
+    width:232px;
+    height: 764px;
+}
+
+.header__button.header__ico{
+    display: inline-block;
+}
+.header__title{
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 17px;
+    text-align: left;
+    text-transform: uppercase;
+    margin:37px 0 24px 34px ;
+}
+
+.menu__sub-item{
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: var(--dark-pink);
+    margin-bottom: 12px;
+    margin-left: 34px;
+}
+
+.menu-sub-item__item{
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    text-transform: capitalize;
+    margin-bottom: 11px;
+    margin-left: 54px;
+
 }
 
 
