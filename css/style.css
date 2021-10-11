@@ -43,7 +43,9 @@
 
 .header__menu{
     display: none;
+    right: 0;
 }
+
 
 .header__box{
     display: flex;
@@ -58,7 +60,7 @@
 }
 
 
-.header__button.header__ico:hover .button__click-text .header__menu{
+.header__button.header__ico:active .button__click-text .header__menu{
     display: block;
     position: fixed;
     background-color: var(--blu);
@@ -66,10 +68,14 @@
     height: 764px;
 }
 
-.header__ico-click:hover,
-.header__ico-1:focus{
+.header__ico-click:active{
     opacity: 0.7;
     cursor: pointer;
+}
+
+a.header__ico-click:active path:first-child {
+    opacity: 0.6;
+    fill: red;
 }
 
 .header__button.header__ico{
@@ -464,9 +470,11 @@
 .opasyti__style:focus{
     opacity: 0.6;
     cursor: pointer;
-
 }
 
+a.opasyti__style:active path:first-child {
+    fill: red;
+}
 
 
 /* страница РЕГИСТАЦИЯ */
@@ -657,6 +665,126 @@
 
 }
 
+/* cart */
 
+.cart__icon{
+    background-image: url(../img/reg.svg);
+    min-height: 140px;
+    display:flex;
+}
 
+.cart__icon-text{
+    margin: 59px 0 0 120px;
+    text-transform: uppercase;
+    color: var(--dark-pink);
+}
 
+.cart__photo{
+    display: flex;
+    margin-top: 96px;
+    justify-content: space-between;
+}
+
+.cart__text{
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 17px 19px 24px 0px #00000021;
+    width: 650px;
+    height: 306px;
+}
+
+.cart__text-sub{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    box-shadow: 17px 19px 24px 0px #00000021;
+    width: 650px;
+    height: 306px;
+}
+
+.cart__text-title{
+    width: 262px;
+    height: 58px;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px;
+    text-transform: uppercase;
+    margin: 22px 0 42px 31px ;
+}
+
+.cart__text-subtitle{
+    font-family: Lato;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 6px;
+    margin-left: 31px;
+    text-transform: capitalize;
+}
+
+.cart__text-red{
+    color: var(--dark-pink);
+}
+
+.cart__button{
+    width: 235px;
+    height: 50px;
+    border: 1px solid #A4A4A4;
+    margin-top: 15px;
+    background-color: transparent;
+    text-transform: uppercase;
+    margin-left: 230px;
+    margin-right: 190px;
+}
+
+.table__text{
+    margin-left: 100px;
+}
+
+.table__text-title{
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 19px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.table__text-sub{
+    width: 358px;
+    height: 44px;
+    text-indent: 17px;
+    text-transform: capitalize;
+    margin-bottom: 21px;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 16px;
+    border: 1px solid var(--var);
+}
+
+.table__button{
+    font-family: Lato;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 13px;
+    text-transform: uppercase;
+    text-indent: 5px;
+    width: 120px;
+    height: 34px;
+    background-color: transparent;
+    border: 1px solid var(--var);
+    text-align: center;
+}
+
+.bugag{
+    border: 1px solid var(--var);
+    background-color: var(--var);
+    width: 360px;
+    height: 214px;
+    margin-top: 57px;
+}
