@@ -15,4 +15,18 @@
   width: 1140px;
   margin: 0 auto;
 }
+
+@media (max-width: 1599) {
+  .container {
+    width: 736px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 736px) {
+  .container {
+    width: 311px;
+    margin: 0 auto;
+  }
+}
 /*# sourceMappingURL=general.css.map */

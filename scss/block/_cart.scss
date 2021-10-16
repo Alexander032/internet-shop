@@ -143,3 +143,10 @@ a.cart__close-fon:active{
 .cart__sub-but-list:active{
     color:$red;
 }
+
+@media (max-width:1599px) {
+    .container{
+        width: 736px;
+        margin: 0 auto;
+    }
+}

@@ -86,3 +86,43 @@
     color: $grey;
 }
 
+@media (max-width:1599px) {
+    .container{
+        width: 736px;
+        margin: 0 auto;
+    }
+
+    .sale__list{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .sale__women{
+        background: url(../img/SaleWomen.jpg) no-repeat;
+        display: block;
+        box-sizing: border-box;
+        min-width: 232px;
+        text-decoration: none;
+    }
+    
+    .sale__men{
+        background: url(../img/SaleMen.jpg) no-repeat;
+        display: block;
+        box-sizing: border-box;
+        min-width: 232px;
+        text-decoration: none;
+    }
+    
+    .sale__kids{
+        background: url(../img/SaleKids.jpg) no-repeat;
+        display: block;
+        box-sizing: border-box;
+        min-width: 232px;
+        text-decoration: none;
+    }
+
+    .sale__item{
+        margin-left: 20px;
+    }
+}
+

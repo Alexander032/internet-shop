@@ -55,3 +55,10 @@
 .chekbox__sub-text{
     margin-right: 20px;
 }
+
+@media (max-width:1599px) {
+    .container{
+        width: 736px;
+        margin: 0 auto;
+    }
+}
