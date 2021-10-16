@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
@@ -106,6 +107,7 @@
     </header>
     <main>
         <section class="hero">
+            <div class="hero__container">
             <img class="hero__img" src="./img/man.jpg" alt="man" width="800" height="765">
             <div class="hero-wrp">
                 <div class="hero__img-sub">
@@ -116,6 +118,7 @@
                 <h1 class="hero__title">the brand <span class="hero__subtitle"> of luxerious <span class="hero__pink">
                             fashion</span></span></h1>
             </div>
+        </div>
         </section>
         <section class="container sale">
             <div class="sale__flex">
@@ -148,11 +151,11 @@
             </li>
         </section>
         <div class="future">
-            <h2 class="future__text">Fetured Items</h2>
-            <p class="future__subtitle">Shop for items based on what we featured in this week</p>
+            <h2 class="sale__text-sub">Fetured Items</h2>
+            <p class="sale__text-sub-title">Shop for items based on what we featured in this week</p>
         </div>
         <section class="column container">
-            <ul class="column__item ">
+            <ul class="column__item">
                 <div class="column__fast">
                     <li class="column__list">
                         <div class="column__product-overlay">
@@ -274,7 +277,7 @@
                     </li>
                 </div>
             </ul>
-            <div class="button__click">
+            <div class="column__click-button">
                 <form action="">
                     <button class="column__button" type="submit">browse all product</button>
                 </form>
@@ -323,7 +326,7 @@
     </main>
     <footer>
         <section class="footer">
-            <ul class="footer__item">
+            <ul class="footer__item container">
                 <li class="footer__title">
                     <img class="footer__subimg" src="./img/Face.svg" alt="photo">
                     <p class="footer__subtool">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus
@@ -340,11 +343,11 @@
             </ul>
         </section>
         <section class="footer__copyrait">
-            <div class="footer__copyrait-contaier">
+            <div class="footer__copyrait-img container">
                 <p class="footer__copyrait-text">© 2021 Brand All Rights Reserved.</p>
                 <ul class="footer__copyrait-active">
                     <li class="footer__copyrait-left">
-                        <a href="https://www.facebook.com/" class="opasyti__style" target="_blank"><svg
+                        <a href="https://www.facebook.com/" class="footer__opasyti-style" target="_blank"><svg
                                 class="target__color" xmlns="http://www.w3.org/2000/svg" width="32" height="32"
                                 viewBox="0 0 32 32" fill="none">
                                 <path d="M31.4506 0H0V32H31.4506V0Z" />
@@ -354,7 +357,7 @@
                             </svg></a>
                     </li>
                     <li class="footer__copyrait-left">
-                        <a href="https://www.instagram.com/" class="opasyti__style" target="_blank"><svg
+                        <a href="https://www.instagram.com/" class="footer__opasyti-style" target="_blank"><svg
                                 class="tagret__color-fist" xmlns="http://www.w3.org/2000/svg" width="33" height="32"
                                 viewBox="0 0 33 32" fill="none">
                                 <path d="M32.1889 0H0.738281V32H32.1889V0Z" />
@@ -371,7 +374,7 @@
                             </svg></a>
                     </li>
                     <li class="footer__copyrait-left">
-                        <a href="https://www.pinterest.com/" class="opasyti__style" target="_blank"><svg
+                        <a href="https://www.pinterest.com/" class="footer__opasyti-style" target="_blank"><svg
                                 class="target__color" xmlns="http://www.w3.org/2000/svg" width="32" height="32"
                                 viewBox="0 0 32 32" fill="none">
                                 <path d="M31.9252 0H0.474609V32H31.9252V0Z" />
@@ -388,7 +391,7 @@
                             </svg></a>
                     </li>
                     <li class="footer__copyrait-left">
-                        <a href="https://twitter.com/" class="opasyti__style" target="_blank"><svg class="target__color"
+                        <a href="https://twitter.com/" class="footer__opasyti-style" target="_blank"><svg class="target__color"
                                 xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"
                                 fill="none">
                                 <path d="M31.6635 0H0.212891V32H31.6635V0Z" />
