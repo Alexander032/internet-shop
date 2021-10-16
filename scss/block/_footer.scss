@@ -1,0 +1,120 @@
+.footer{
+    background: url(../img/photofot.jpg) no-repeat;
+    background-size: cover;
+    padding: 110px 0;
+}
+
+.footer__item{
+    display: flex;
+    align-items: baseline;
+}
+
+.footer__title{
+    text-align: center;
+    margin-right: 328px;
+
+}
+
+.footer__subtool{
+    width: 360px;
+    height: 99px;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+
+.footer__subtitle-text{
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+.footer__subtitle-title{
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+}
+
+.footer__email{
+    padding: 0 64px 0 22px;
+    height: 49px;
+    border-bottom-left-radius:35px ;
+    border-top-left-radius: 35px;
+    border-style: none;
+    background-color:$var;
+}
+
+.footer__button{
+    padding: 17px;
+    margin-left: -3px;
+    border-bottom-right-radius: 35px;
+    border-top-right-radius: 35px;
+    background-color:$dark-pink;
+    color:$var;
+    border-style: none;
+}
+
+.footer__button:hover,
+.footer__button:focus{
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.footer__copyrait{
+    background-color: $black;
+    min-height: 79px; 
+}
+
+.footer__copyrait-img{
+    display: flex;
+    justify-content:space-between ;
+}
+
+.footer__copyrait-text{
+    color:$white;
+    margin-top: 30px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+}
+
+.footer__copyrait-active{
+    display: flex;
+    margin-top: 24px;
+}
+
+.footer__copyrait-left{
+    margin-right: 8px;
+}
+
+.target__color{
+    background-color:$white;
+}
+
+.tagret__color-fist{
+    background-color:$dark-pink;
+}
+
+.footer__opasyti-style:hover,
+.footer__opasyti-style:focus{
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+a.footer__opasyti-style:active path:first-child {
+    fill: $red;
+}

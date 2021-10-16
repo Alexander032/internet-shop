@@ -1,0 +1,46 @@
+.table__text{
+    margin-left: 100px;
+}
+
+.table__text-title{
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 19px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.table__text-sub{
+    width: 358px;
+    height: 44px;
+    text-indent: 17px;
+    text-transform: capitalize;
+    margin-bottom: 21px;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 16px;
+    border: 1px solid $dark-grey;
+}
+
+.table__button{
+    font-family: Lato;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 13px;
+    text-transform: uppercase;
+    text-indent: 5px;
+    width: 120px;
+    height: 34px;
+    background-color: transparent;
+    border: 1px solid $var;
+    text-align: center;
+}
+
+.table__button:active{
+    opacity: 0.6;
+    cursor: pointer;
+    color: $red;
+}
