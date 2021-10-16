@@ -1,0 +1,58 @@
+.hero{
+    display: flex;
+    background-color:$pink;
+}
+
+.hero__container{
+    display: flex;
+}
+
+.hero-wrp{
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 92px;
+}
+
+.hero__img-sub{
+    margin-right: 20px;
+}
+
+.hero__title{
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 58px;
+    text-transform: uppercase;
+}
+
+.hero__subtitle{
+    display: block;
+    font-family: Lato;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px;
+}
+
+.hero__pink{
+    color: $dark-pink;
+}
+
+@media (max-width:1599px) {
+    .container{
+        width: 736px;
+        margin: 0 auto;
+    }
+
+    .hero{
+        width: 767px;
+    }
+
+    .hero__img{
+        width: 384px;
+        height: 360px;
+    }
+
+
+}
