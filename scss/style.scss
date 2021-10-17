@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 @import'./variables.scss';
 
 @import './general.scss';
@@ -27,8 +28,13 @@
 
 =======
 @import'./variables.scss';
+=======
+@import 'reset';
+>>>>>>> Dev_home
 
-@import './general.scss';
+@import 'variables';
+
+@import 'general';
 
 @import'../scss/block/header';
 

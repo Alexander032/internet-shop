@@ -294,9 +294,9 @@
     color: $dark-pinks;
 }
 
-@media (max-width:1599px) {
+@media screen and (min-width:768px) and (max-width:1140px) {
     .container{
-        width: 736px;
+        max-width: 768px;
         margin: 0 auto;
     }
 
@@ -311,11 +311,38 @@
 
     .column__van{
         margin: 0 0 16px 0;
+        padding-left: 16px;
     }
 
     .column__list{
         margin-bottom: 16px;
-        margin-left: 16px;
+    }
+
+    .column__button{
+        margin-top: 10px;
+    }
+
+    .column__click-button{
+        margin-bottom: 60px;
+    }
+}
+
+@media screen and (min-width:375px) and (max-width:767px) {
+    .container{ 
+        max-width: 375px;
+        margin: 0 auto;
+    }
+
+    .column__list{
+        margin-bottom: 16px;
+    }
+
+    .column__fast{
+        margin-left: 10px;
+    }
+
+    .column__van{
+        margin: 0 0 0 10px;
     }
 }
 >>>>>>> Dev_home

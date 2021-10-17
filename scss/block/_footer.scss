@@ -252,15 +252,64 @@ a.footer__opasyti-style:active path:first-child {
     fill: $red;
 }
 
-@media (max-width:1599px) {
+@media screen and (min-width:768px) and (max-width:1140px) {
     .container{
-        width: 736px;
+        max-width: 768px;
         margin: 0 auto;
+    }
+
+    .footer__title{
+        margin: 0;  
     }
 
     .footer__item{
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
+
+    .footer__subtool{
+        margin-bottom: 48px;
+    }
+}
+
+@media screen and (min-width:375px) and (max-width:767px) {
+    .container{ 
+        max-width: 375px;
+        margin: 0 auto;
+    }
+
+    .footer__title{
+        margin: 0;
+    }
+
+    .footer__item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__subtool{
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .footer__copyrait-img{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+<<<<<<< HEAD
+>>>>>>> Dev_home
+=======
+
+    .footer__copyrait-text{
+        order: 2;
+        margin-top: 40px;
+    }
+
 >>>>>>> Dev_home
 }

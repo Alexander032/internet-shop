@@ -66,10 +66,17 @@
     display: flex;
 }
 
+.hero__img{
+    background-color: $white;
+    width: 50%;
+}
+
 .hero-wrp{
     display: flex;
     align-items: center;
     padding: 0 0 0 92px;
+    width: 50%;
+    margin-left: 100px;
 }
 
 .hero__img-sub{
@@ -98,21 +105,83 @@
     color: $dark-pink;
 }
 
-@media (max-width:1599px) {
+@media screen and (min-width:768px) and (max-width:1140px) {
     .container{
-        width: 736px;
+        max-width: 768px;
         margin: 0 auto;
     }
-
-    .hero{
-        width: 767px;
-    }
-
+    
     .hero__img{
         width: 384px;
         height: 360px;
     }
 
+    .hero__image{
+        width: 384px;
+        height: 360px;
+    }
 
+    .hero-wrp{
+        margin: 0;
+        padding: 0 0 0 40px;
+    }
+
+    .hero__title{
+        font-family: Lato;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 53px;
+    }
+
+    .hero__subtitle{
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 29px;
+    }
+}
+
+@media screen and (min-width:375px) and (max-width:767px) {
+    .container{ 
+        max-width: 375px;
+        margin: 0 auto;
+    }
+
+    .hero__container{
+        width: 375px;
+        height: 363px;
+    }
+
+    .hero__img{
+        display: none;
+    }
+
+    .hero__title{
+
+font-family: Lato;
+font-size: 38px;
+font-style: normal;
+font-weight: 900;
+line-height: 46px;
+letter-spacing: 0em;
+}
+
+
+<<<<<<< HEAD
+>>>>>>> Dev_home
+=======
+    .hero__subtitle{
+        font-family: Lato;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+    }
+
+    .hero-wrp{
+        padding: 0;
+        margin-left: 56px;
+    }
 >>>>>>> Dev_home
 }
