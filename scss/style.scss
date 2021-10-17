@@ -1,6 +1,8 @@
-@import'./variables.scss';
+@import 'reset';
 
-@import './general.scss';
+@import 'variables';
+
+@import 'general';
 
 @import'../scss/block/header';
 

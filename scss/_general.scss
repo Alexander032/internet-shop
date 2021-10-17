@@ -11,19 +11,31 @@
     margin: -1px;
 }
 
+body{
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+
 .container{
-    width: 1140px;
+    max-width: 1140px;
     margin: 0 auto;
 }
 
-@media (max-width:1599) {
+@media screen and (min-width:768px) and (max-width:1140px) {
     .container{
-        width: 736px;
+        max-width: 768px;
         margin: 0 auto;
     }
 }
 
-@media (max-width:736px) {
+@media screen and (min-width:375px) and (max-width:768px) {
+    .container{ 
+        max-width: 375px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width:375px) {
     .container{ 
         width: 311px;
         margin: 0 auto;

@@ -56,9 +56,42 @@
     margin-right: 20px;
 }
 
-@media (max-width:1599px) {
+@media screen and (min-width:768px) and (max-width:1140px) {
     .container{
-        width: 736px;
+        max-width: 768px;
         margin: 0 auto;
     }
-}
+
+    .text__grou{
+        margin-left: 22px;
+    }
+
+    .text__group{
+        font-family: Lato;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
+        margin-bottom: 22px;
+        }
+
+        .text__title-box{
+            font-family: Lato;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 19px;
+            margin-bottom: 16px
+        }
+
+        .text__title{
+            font-family: Lato;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 19px;
+            margin-bottom: 16px;
+            width: 311px;
+            height: 37px;
+        }
+}    
