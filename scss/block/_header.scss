@@ -17,6 +17,7 @@
 
 .header__box{
     display: flex;
+    align-items: baseline;
 }
 
 .header__logo{
@@ -85,10 +86,22 @@ a.header__search-click:active path:first-child {
     background-color: transparent;
 }
 
-@media screen and (min-width:768px) and (max-width:1140px) {
+@media screen and (min-width:767px) and (max-width:1140px) {
     .container{
-        width: 736px;
+        width: 767px;
         margin: 0 auto;
+    }
+
+    .header__button{
+        margin-left: 16px;
+    }
+
+    .button__click-menu{
+        margin-right: 32px;
+    }
+    
+    .header__box{
+        margin-left: 32px;
     }
 }
 
@@ -98,18 +111,11 @@ a.header__search-click:active path:first-child {
         margin: 0 auto;
     }
 
-    .header__ico-click{
-        display: none;
+    .header__box{
+        margin-left: 16px;
     }
 
     .button__click-menu{
         margin-right: 16px;
-    }
-}
-
-@media (max-width:375px) {
-    .container{ 
-        width: 311px;
-        margin: 0 auto;
     }
 }

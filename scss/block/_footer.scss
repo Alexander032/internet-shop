@@ -119,9 +119,9 @@ a.footer__opasyti-style:active path:first-child {
     fill: $red;
 }
 
-@media screen and (min-width:768px) and (max-width:1140px) {
+@media screen and (min-width:767px) and (max-width:1140px) {
     .container{
-        max-width: 768px;
+        max-width: 767px;
         margin: 0 auto;
     }
 
@@ -172,7 +172,7 @@ a.footer__opasyti-style:active path:first-child {
 
     .footer__copyrait-text{
         order: 2;
-        margin-top: 40px;
+        margin: 40px 0 20px 0;
     }
 
 }

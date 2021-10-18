@@ -45,9 +45,18 @@
     color: $red;
 }
 
-@media (max-width:1599px) {
+@media screen and (min-width:767px) and (max-width:1140px) {
     .container{
-        width: 736px;
+        max-width: 767px;
         margin: 0 auto;
+    }
+
+    .table__text{
+        display: flex;
+        margin: 0;
+    }
+
+    .table_text-reperad{
+        margin-bottom: 120px;
     }
 }

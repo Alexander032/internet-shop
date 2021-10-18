@@ -68,3 +68,14 @@
         margin-top: 48px;
     }
 }
+
+@media screen and (min-width:375px) and (max-width:767px){
+    .container{ 
+        max-width: 375px;
+        margin: 0 auto;
+    }
+
+    .grid__item{
+        width: 100%;
+    }
+}    

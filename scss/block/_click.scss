@@ -61,9 +61,13 @@
     margin-left: 43px;
 }
 
-@media (max-width:1599px) {
+@media screen and (min-width:767px) and (max-width:1140px) {
     .container{
-        width: 736px;
+        max-width: 767px;
         margin: 0 auto;
+    }
+
+    .click__checkout{
+        margin-top: 40px;
     }
 }
