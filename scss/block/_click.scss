@@ -71,3 +71,14 @@
         margin-top: 40px;
     }
 }
+
+@media screen and (min-width:375px) and (max-width:768px) {
+    .container{ 
+        max-width: 375px;
+        margin: 0 auto;
+    }
+
+    .click__checkout{
+        margin: 48px 0 96px 0;
+    }
+}

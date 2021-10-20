@@ -107,15 +107,30 @@ a.header__search-click:active path:first-child {
 
 @media screen and (min-width:375px) and (max-width:767px) {
     .container{ 
-        width: 311px;
+        width: 375px;
         margin: 0 auto;
     }
 
     .header__box{
+        display: contents;
         margin-left: 16px;
     }
 
-    .button__click-menu{
-        margin-right: 16px;
+    .header__logo{
+        margin: 0;
     }
+
+    .button__click-menu{
+        margin-right: 20px;
+    }
+
+    .header__container{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .header__search-click{
+        margin-right: 40px;
+    }
+
 }

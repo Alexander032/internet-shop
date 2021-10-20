@@ -138,12 +138,30 @@ a.footer__opasyti-style:active path:first-child {
     .footer__subtool{
         margin-bottom: 48px;
     }
+
+    .footer__copyrait-active{
+        margin-right: 32px;
+    }
+
+    .footer__copyrait-text{
+        margin-left: 32px;
+    }
 }
 
 @media screen and (min-width:375px) and (max-width:767px) {
     .container{ 
         max-width: 375px;
         margin: 0 auto;
+    }
+
+    .footer__subtitle-title{
+        font-family: Lato;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: center;
     }
 
     .footer__title{
