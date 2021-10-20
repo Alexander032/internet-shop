@@ -54,6 +54,7 @@
 =======
 .table__text{
     margin-left: 100px;
+    margin-top: 40px;
 }
 
 .table__text-title{
@@ -99,10 +100,34 @@
     color: $red;
 }
 
-@media (max-width:1599px) {
+@media screen and (min-width:767px) and (max-width:1140px) {
     .container{
-        width: 736px;
+        max-width: 767px;
         margin: 0 auto;
     }
+<<<<<<< HEAD
 >>>>>>> Dev_home
 }
+=======
+
+    .table__text{
+        display: flex;
+        margin: 0;
+    }
+
+    .table_text-reperad{
+        margin-bottom: 120px;
+    }
+}
+
+@media screen and (min-width:375px) and (max-width:768px) {
+    .container{ 
+        max-width: 375px;
+        margin: 0 auto;
+    }
+
+    .table__text{
+        margin: 0 0 0 7px;
+    }
+}    
+>>>>>>> Dev_home

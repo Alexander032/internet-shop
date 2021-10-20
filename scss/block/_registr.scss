@@ -103,7 +103,6 @@
 .registr__icon{
     background-image: url(../img/reg.svg);
     min-height: 140px;
-    display:flex;
 }
 
 .registr__input-sub{
@@ -112,7 +111,7 @@
 }
 
 .registr__icon-text{
-    margin: 59px 0 0 0;
+    padding-top: 59px;
     font-family: Lato;
     font-size: 24px;
     font-style: normal;
@@ -179,7 +178,6 @@
     color: $white;
     border: none;
     margin-bottom: 96px;
-    margin-left: 100px;
 }
 
 .registr__active::after{
@@ -194,9 +192,9 @@
     cursor: pointer;
 }
 
-@media screen and (min-width:768px) and (max-width:1140px) {
+@media screen and (min-width:767px) and (max-width:1140px) {
     .container{
-        max-width: 768px;
+        max-width: 767px;
         margin: 0 auto;
     }
 <<<<<<< HEAD
@@ -210,6 +208,43 @@
 
     .registr__sub-text{
         margin-top: 35px;
+    }
+<<<<<<< HEAD
+}
+>>>>>>> Dev_home
+=======
+
+    .registr__chekbox-sub{
+        display: flex;
+    }
+    
+}
+
+@media screen and (min-width:375px) and (max-width:767px) {
+    .container{ 
+        max-width: 375px;
+        margin: 0 auto;
+    }
+
+    .registr__icon-text{
+        text-align: center;
+    }
+
+    .registr__active{
+        margin: 0;
+    }
+
+    .registr__text{
+        display:flex;
+        flex-direction: column;
+    }
+
+    .registr__chekbox-sub{
+        display: flex;
+    }
+
+    .registr__input-sub{
+        margin-left: 5px;
     }
 }
 >>>>>>> Dev_home

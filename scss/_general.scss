@@ -53,19 +53,20 @@ body{
     margin: 0 auto;
 }
 
-@media screen and (min-width:768px) and (max-width:1140px) {
+@media screen and (min-width:767px) and (max-width:1140px) {
     .container{
         max-width: 768px;
         margin: 0 auto;
     }
 }
 
-@media screen and (min-width:375px) and (max-width:768px) {
+@media screen and (min-width:375px) and (max-width:767px) {
     .container{ 
         max-width: 375px;
         margin: 0 auto;
     }
 }
+<<<<<<< HEAD
 
 @media (max-width:375px) {
     .container{ 
@@ -74,3 +75,5 @@ body{
     }
 >>>>>>> Dev_home
 }
+=======
+>>>>>>> Dev_home

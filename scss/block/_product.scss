@@ -1,0 +1,38 @@
+.product__icon{
+    background-image: url(../img/reg.svg);
+    min-height: 140px;
+}
+
+.product__icon-text{
+    padding-top: 59px;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px;
+    text-transform: uppercase;
+    color:$dark-pink;
+}
+
+.product__click{
+    border: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 17px;
+    color: $black-grey-w;
+}
+
+.product__click-sub{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:$dark-pink;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 17px;
+}

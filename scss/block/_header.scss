@@ -115,6 +115,7 @@ a.header__search-click:active path:first-child {
 
 .header__box{
     display: flex;
+    align-items: baseline;
 }
 
 .header__logo{
@@ -183,28 +184,45 @@ a.header__search-click:active path:first-child {
     background-color: transparent;
 }
 
-@media screen and (min-width:768px) and (max-width:1140px) {
+@media screen and (min-width:767px) and (max-width:1140px) {
     .container{
-        width: 736px;
+        width: 767px;
         margin: 0 auto;
+    }
+
+    .header__button{
+        margin-left: 16px;
+    }
+
+    .button__click-menu{
+        margin-right: 32px;
+    }
+    
+    .header__box{
+        margin-left: 32px;
     }
 }
 
 @media screen and (min-width:375px) and (max-width:767px) {
     .container{ 
-        width: 311px;
+        width: 375px;
         margin: 0 auto;
     }
 
-    .header__ico-click{
-        display: none;
+    .header__box{
+        display: contents;
+        margin-left: 16px;
+    }
+
+    .header__logo{
+        margin: 0;
     }
 
     .button__click-menu{
-        margin-right: 16px;
+        margin-right: 20px;
     }
-}
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> Dev_home
 =======
@@ -212,6 +230,16 @@ a.header__search-click:active path:first-child {
     .container{ 
         width: 311px;
         margin: 0 auto;
+=======
+    .header__container{
+        display: flex;
+        justify-content: space-evenly;
+>>>>>>> Dev_home
     }
+
+    .header__search-click{
+        margin-right: 40px;
+    }
+
 }
 >>>>>>> Dev_home
