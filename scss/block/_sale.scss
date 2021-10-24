@@ -1,5 +1,130 @@
-.sale{
-    margin-top: 65px;
+
+.sale__item{
+    list-style-type: none;
+    margin-top: 30px;
+}
+
+.sale__list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sale__text{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: center;
+    color: $white;
+    text-transform: uppercase;
+
+}
+
+.sale__subtitle{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 29px;
+    text-align: center;
+    color:$dark-pink;
+    text-transform: uppercase;
+}
+
+
+.sale__women{
+    background-image: url(../img/SaleWomen.jpg);
+    display: block;
+    padding: 105px 103px;
+    box-sizing: border-box;
+    min-width: 360px;
+    text-decoration: none;
+}
+
+.sale__men{
+    background-image: url(../img/SaleMen.jpg);
+    display: block;
+    padding: 105px 103px;
+    box-sizing: border-box;
+    min-width: 360px;
+    text-decoration: none;
+}
+
+.sale__kids{
+    background-image: url(../img/SaleKids.jpg);
+    display: block;
+    padding: 105px 103px;
+    box-sizing: border-box;
+    min-width: 360px;
+    text-decoration: none;
+}
+
+.sale__for{
+    background-image: url(../img/SaleFor.jpg);
+    display: block;
+    padding: 65px;
+    box-sizing: border-box;
+    min-width: 360px;
+    text-decoration: none;
+}
+
+.sale__text-sub{
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+    color: $black;
+    margin-top: 97px;
+    margin-bottom: 6px;
+}
+
+.sale__text-sub-title{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: center;
+    color: $grey;
+}
+
+@media (max-width:1599px) {
+    .container{
+        width: 736px;
+        margin: 0 auto;
+    }
+
+    .sale__list{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .sale__women{
+        background: url(../img/SaleWomen.jpg) no-repeat;
+        display: block;
+        box-sizing: border-box;
+        min-width: 232px;
+        text-decoration: none;
+    }
+    
+    .sale__men{
+        background: url(../img/SaleMen.jpg) no-repeat;
+        display: block;
+        box-sizing: border-box;
+        min-width: 232px;
+        text-decoration: none;
+    }
+    
+    .sale__kids{
+        background: url(../img/SaleKids.jpg) no-repeat;
+        display: block;
+        box-sizing: border-box;
+        min-width: 232px;
+        text-decoration: none;
+    }
+
+    .sale__item{
+        margin-left: 20px;
+    }
 }
 
 .sale__item{
@@ -11,6 +136,7 @@ width: 360px;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    gap: 30px;
 }
 
 
@@ -101,8 +227,6 @@ a.sale__kids:active{
 
 .sale__accesories {
     width: 100%;
-    list-style-type: none;
-    margin-top: 30px;
 }
 
 .sale__text-sub{
@@ -125,9 +249,9 @@ a.sale__kids:active{
     color: $grey;
 }
 
-@media screen and (min-width:767px) and (max-width:1140px) {
+@media screen and (min-width:768px) and (max-width:1140px) {
     .container{
-        max-width: 767px;
+        max-width: 768px;
         margin: 0 auto;
     }
 
@@ -136,45 +260,6 @@ a.sale__kids:active{
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
-        min-height: 300px;
-        gap: unset;
-    }
-
-    .sale__item{
-        height: 210px;
-        width: 31.5%;
-    }
-
-    .sale__women{
-        background-image: url(../img/SaleWomen.jpg);
-        padding: 105px 0px;
-        box-sizing: border-box;
-        background-position: center;
-        width: 100%;
-    }
-
-    .sale__men{
-        background-image: url(../img/SaleMen.jpg);
-        padding: 105px 0px;
-        box-sizing: border-box;
-        background-position: center;
-        width: 100%;
-    }
-
-    .sale__kids{
-        background-image: url(../img/SaleKids.jpg);
-        padding: 105px 0px;
-        box-sizing: border-box;
-        background-position: center;
-        width: 100%;
-    }
-
-    .sale__for{
-        background-image: url(../img/SaleFor.jpg);
-        box-sizing: border-box;
-        padding: 65px;
-        width: 100%;
-        text-decoration: none;
     }
 
     .sale__text{
@@ -184,26 +269,51 @@ a.sale__kids:active{
         font-size: 16px;
         line-height: 19px;
         text-align: center;
-        position: relative;
+        position: absolute;
     }
 
     .sale__subtitle{
         font-family: Lato;
         font-style: normal;
-        font-weight: bold;
-        font-size: 27px;
+        font-weight: normal;
+        font-size: 16px;
         line-height: 19px;
         text-align: center;
-        position: relative;
-        margin-top: 7px;
+        position: absolute;
     }
 
-    .sale__text-sub{
-    margin-top: 150px;
+    .sale__for{
+        max-width: 734px;
     }
 
-    .sale__text-sub-title{
-        margin-bottom: 72px;
+    .sale__item{
+        width: 262px;
+        height: 210px;
+    }
+
+    .sale__women{
+        background: url(../img/SaleWomen.jpg);
+        padding: 105px 0px;
+        box-sizing: border-box;
+        background-position: center;
+        width: 31.5%;
+    }
+    
+
+    .sale__men{
+        background: url(../img/SaleMen.jpg);
+        padding: 105px 0px;
+        box-sizing: border-box;
+        background-position: center;
+        width: 31.5%;
+    }
+
+    .sale__kids{
+        background: url(../img/SaleKids.jpg);
+        padding: 105px 0px;
+        box-sizing: border-box;
+        background-position: center;
+        width: 31.5%;
     }
 }    
 
@@ -220,26 +330,6 @@ a.sale__kids:active{
         align-items: center;
         margin-top: 64px;
     }
-
-    .sale__item{
-        margin-bottom: 32px;
-    }
-
-    .sale__for{
-        width: 96%;
-        margin-left: 8px;
-    }
-
-    .sale__text-sub{
-        margin-top: 64px;
-    }
-
-    .sale__text-sub-title{
-        margin-bottom: 64px;
-    }
-
-    .sale__accesories{
-        margin: 0;
-    }
     
 }
+
