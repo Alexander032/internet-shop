@@ -35,21 +35,29 @@ width: 360px;
     text-transform: uppercase;
 }
 
+a.sale__for:hover,
+a.sale__for:focus,
 a.sale__for:active{
     opacity: 0.7;
     cursor: pointer;
 }
 
+a.sale__women:hover,
+a.sale__women:focus,
 a.sale__women:active{
     opacity: 0.7;
     cursor: pointer;
 }
 
+a.sale__men:hover,
+a.sale__men:focus,
 a.sale__men:active{
     opacity: 0.7;
     cursor: pointer;
 }
 
+a.sale__kids:hover,
+a.sale__kids:focus,
 a.sale__kids:active{
     opacity: 0.7;
     cursor: pointer;
