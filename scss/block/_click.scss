@@ -1,7 +1,11 @@
-.click__checkout-text:active,
+.click__checkout-text:hover,
 .click__checkout-text:focus{
     opacity: 0.6;
     cursor: pointer;
+}
+
+.click__checkout-text:active{
+    color: $red;
 }
 
 

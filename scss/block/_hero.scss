@@ -18,7 +18,20 @@
     padding: 0 0 0 92px;
     width: 50%;
     margin-left: 100px;
+    overflow: hidden;
 }
+
+.hero__focus-text{
+    animation-duration: 5s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+    }
+} 
 
 .hero__img-sub{
     margin-right: 20px;
@@ -99,15 +112,13 @@
     }
 
     .hero__title{
-
-font-family: Lato;
-font-size: 38px;
-font-style: normal;
-font-weight: 900;
-line-height: 46px;
-letter-spacing: 0em;
-}
-
+        font-family: Lato;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 46px;
+    letter-spacing: 0em;
+    }
 
     .hero__subtitle{
         font-family: Lato;
