@@ -3,6 +3,12 @@
     min-height: 140px;
 }
 
+.product__icon-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
 .product__icon-text{
     padding-top: 59px;
     font-family: Lato;

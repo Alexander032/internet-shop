@@ -112,7 +112,6 @@ a.header__search-click:active path:first-child {
     right: 0;
 }
 
-
 .header__box{
     display: flex;
     align-items: baseline;
@@ -128,11 +127,9 @@ a.header__search-click:active path:first-child {
     cursor: pointer;
 }
 
-
 .header__ico-click{
     margin: 0 0 0 33px;
 }
-
 
 .header__button.header__ico:active .button__click-text .header__menu{
     display: block;
@@ -166,6 +163,7 @@ a.header__search-click:active path:first-child {
 .header__button.header__ico{
     display: inline-block;
 }
+
 .header__title{
     font-family: Lato;
     font-size: 14px;
@@ -177,7 +175,10 @@ a.header__search-click:active path:first-child {
     margin:37px 0 24px 34px ;
 }
 
-
+.button__click-menu{
+    display: flex;
+    align-items: baseline;
+}
 
 .header__button{
     border: none;
