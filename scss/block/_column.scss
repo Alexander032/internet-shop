@@ -167,7 +167,6 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-
 }
 
 .column__van{
@@ -176,8 +175,6 @@
     flex-wrap: wrap;
     margin-top: 30px;
 }
-
-
 
 .column__list{
     background: $white-wh;
@@ -240,6 +237,16 @@
 .column__click-button{
     text-align: center;
     margin-bottom: 96px;
+}
+
+.column__subtitle:hover,
+.column__subtitle:focus{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.column__subtitle:active{
+    color: $black;
 }
 
 .column__title{

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 .click__checkout-text:active,
 .click__checkout-text:focus{
     opacity: 0.6;
@@ -70,9 +71,16 @@
 }
 =======
 .click__checkout-text:active,
+=======
+.click__checkout-text:hover,
+>>>>>>> Dev_home
 .click__checkout-text:focus{
     opacity: 0.6;
     cursor: pointer;
+}
+
+.click__checkout-text:active{
+    color: $red;
 }
 
 

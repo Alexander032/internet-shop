@@ -114,7 +114,6 @@ a.header__search-click:active path:first-child {
 
 .header__box{
     display: flex;
-    align-items: baseline;
 }
 
 .header__logo{
@@ -185,6 +184,45 @@ a.header__search-click:active path:first-child {
     background-color: transparent;
 }
 
+.header__search-container{
+    max-width: 28px;
+    max-height: 28px;
+    position: relative;
+}
+
+.header__index-search{
+    fill: #E8E8E8;
+    position: absolute;
+    margin-top: 15px;
+}
+
+.header__index-search-ico{
+    margin: 15px 15px 15px 30px;
+}
+
+.header__index-search-input{
+    display: none;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.header__search-container:hover .header__index-search-input{
+    display: block;
+}
+
+.header__index-search:hover path:first-child{
+    opacity: 0.6;
+    fill:$red;
+}
+
+[type=search] {
+    padding: 10px 20px;
+    border: none;
+}
+
+
+
 @media screen and (min-width:767px) and (max-width:1140px) {
     .container{
         width: 767px;
@@ -242,5 +280,12 @@ a.header__search-click:active path:first-child {
         margin-right: 40px;
     }
 
+    .header__index-search-input{
+        width: 80px;
+    }
+
+    .header__index-search{
+        margin: 0;
+    }
 }
 >>>>>>> Dev_home

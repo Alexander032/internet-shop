@@ -9,6 +9,16 @@
     align-items: baseline;
 }
 
+.product__carousel-icon{
+    background-color: $grey;
+    padding: 9px 13px;
+}
+
+.product__carousel{
+    position: absolute;
+    width: 100%;
+}
+
 .product__icon-text{
     padding-top: 59px;
     font-family: Lato;
@@ -41,4 +51,75 @@
     font-style: normal;
     font-weight: 700;
     line-height: 17px;
+}
+
+.product__carousel-icon:hover,
+.product__carousel-icon:focus{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.product__description{
+    padding: 64px 0 64px 0;
+    text-align: center;
+    border: 1px solid #E8E8E8;
+    position: relative;
+    margin-top: 45%;
+    z-index: 1;
+    background-color: #FFFFFF;
+}
+
+.product__description-text{
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: $dark-pink;
+    margin-top: 64px;
+}
+
+.product__description-text-sub{
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22px;
+    text-transform: uppercase;
+    margin: 12px 0 48px 0;
+}
+
+.product__description-text-sub-text{
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 17px;
+    letter-spacing: 0em;
+    margin-bottom: 32px;
+}
+
+.product__description-text-sub-text-text{
+    color: $dark-pink;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 29px;
+}
+
+@media screen and (min-width:767px) and (max-width:1140px) {
+    .container{
+        max-width: 767px;
+        margin: 0 auto;
+    }
+
+    .product__carousel{
+        position: relative;
+    }
+
+    .product__description{
+        margin-top: 0;
+    }
 }
