@@ -1,37 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-@import'./variables.scss';
-
-@import './general.scss';
-
-@import'../scss/block/header';
-
-@import'../scss/block/hero';
-
-@import'../scss/block/sale';
-
-@import'../scss/block/column';
-
-@import'../scss/block/grid';
-
-@import'../scss/block/footer';
-
-@import'../scss/block/registr';
-
-@import'../scss/block/text';
-
-@import'../scss/block/menu';
-
-@import'../scss/block/cart';
-
-@import'../scss/block/table';
-
-=======
-@import'./variables.scss';
-=======
-@import 'reset';
->>>>>>> Dev_home
-
 @import 'variables';
 
 @import 'general';
@@ -58,13 +24,8 @@
 
 @import'../scss/block/table';
 
-<<<<<<< HEAD
->>>>>>> Dev_home
-@import'../scss/block/click';
-=======
 @import'../scss/block/click';
 
-@import'../scss/block/carousel';
+@import'../scss/block/click';
 
 @import'../scss/block/product';
->>>>>>> Dev_home
