@@ -1,15 +1,13 @@
-.sale__item {
+.sale__item{
+    list-style-type: none;
+    margin-top: 30px;
     width: 360px;
 }
 
 .sale__list{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 30px;
 }
-
 
 .sale__text{
     font-size: 16px;
@@ -19,7 +17,6 @@
     text-align: center;
     color: $white;
     text-transform: uppercase;
-
 }
 
 .sale__subtitle{
@@ -63,7 +60,7 @@ a.sale__kids:active{
 .sale__women{
     background-image: url(../img/SaleWomen.jpg);
     display: block;
-    padding: 105px 103px;
+    padding: 91px 103px;
     box-sizing: border-box;
     width: 360px;
     text-decoration: none;
@@ -98,6 +95,7 @@ a.sale__kids:active{
 
 .sale__accesories{
     list-style-type: none;
+    width: 100%;
 }
 
 .sale__text-sub{
@@ -165,7 +163,7 @@ a.sale__kids:active{
     }
 
     .sale__women{
-        background: url(../img/SaleWomen.jpg);
+        background: url(../img/SaleWomen.jpg) no-repeat;
         padding: 105px 0px;
         box-sizing: border-box;
         background-position: center;
