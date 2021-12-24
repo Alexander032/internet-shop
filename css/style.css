@@ -116,6 +116,7 @@ table {
 
 .header__box {
   display: flex;
+  align-items: center;
 }
 
 .header__logo {
@@ -195,7 +196,6 @@ a.header__search-click:active path:first-child {
 .header__index-search {
   fill: #E8E8E8;
   position: absolute;
-  margin-top: 15px;
 }
 
 .header__index-search-ico {
@@ -2053,5 +2053,10 @@ a.cart__close-fon:active {
   .product__description {
     margin-top: 0;
   }
+}
+
+.swiper-info {
+  width: 1600px;
+  height: 777px;
 }
 /*# sourceMappingURL=style.css.map */

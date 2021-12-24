@@ -16,6 +16,7 @@
 
 .header__box{
     display: flex;
+    align-items: center;
 }
 
 .header__logo{
@@ -95,7 +96,6 @@ a.header__search-click:active path:first-child {
 .header__index-search{
     fill: #E8E8E8;
     position: absolute;
-    margin-top: 15px;
 }
 
 .header__index-search-ico{
