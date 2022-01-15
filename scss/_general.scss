@@ -14,7 +14,6 @@
 body{
     box-sizing: border-box;
     font-family: "Lato", sans-serif;
-    margin: 0 auto;
 }
 
 .container{
@@ -32,13 +31,6 @@ body{
 @media screen and (min-width:375px) and (max-width:767px) {
     .container{ 
         max-width: 375px;
-        margin: 0 auto;
-    }
-}
-
-@media (max-width:375px) {
-    .container{ 
-        width: 311px;
         margin: 0 auto;
     }
 }
