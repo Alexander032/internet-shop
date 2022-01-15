@@ -15,8 +15,8 @@
 }
 
 .product__carousel{
-    position: absolute;
     width: 100%;
+    background-color: $white-wg;
 }
 
 .product__icon-text{
@@ -53,9 +53,10 @@
     line-height: 17px;
 }
 
-.product__carousel-icon:hover,
-.product__carousel-icon:focus{
+.product__click:hover, .product__click-sub:hover,
+.product__click:focus, .product__click-sub:focus{
     opacity: 0.7;
+    color:blue;
     cursor: pointer;
 }
 
@@ -109,17 +110,107 @@
     line-height: 29px;
 }
 
-@media screen and (min-width:767px) and (max-width:1140px) {
-    .container{
-        max-width: 767px;
-        margin: 0 auto;
-    }
-
-    .product__carousel{
-        position: relative;
-    }
-
-    .product__description{
-        margin-top: 0;
-    }
+.product__form-women{
+    border: 1px solid $var-var;
+    height: 601px;
 }
+
+.product__form01{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.products__text-m{
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-transform: uppercase;
+    color:$dark-pink;
+    text-align: center;
+    margin:64px 0 12px 0;
+}
+
+.products__text-a{
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin:12px 0 48px 0;
+}
+
+.products__text-p{
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 555px;
+    height: 52px;
+    margin-bottom: 32px;
+}
+
+.products__text-p1{
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:$dark-pink;
+    margin-bottom: 64px;
+}
+
+.products__p-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 65px;
+}
+
+.products__p-text{
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:$black_gray1;
+    padding-right: 25px;
+}
+
+.products__p-href{
+    padding-left: 12px;
+}
+
+.products__p-button{
+    border: 1px solid $dark-pink;
+    background: none;
+    color:$dark-pink;
+    width: 211px;
+    height: 49px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.produ-img{
+    margin-right: 22px;
+}
+
+.products__p-button:active{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+
