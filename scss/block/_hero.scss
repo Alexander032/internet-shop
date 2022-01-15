@@ -1,5 +1,4 @@
 .hero{
-    display: flex;
     background-color:$pink;
 }
 
@@ -8,16 +7,19 @@
 }
 
 .hero__img{
+    display: flex;
+    justify-content: flex-end;
     background-color: $white;
+    box-sizing: border-box;
+    width: 50%;
 }
 
 .hero-wrp{
     display: flex;
-    align-items: center;
     width: 50%;
-    margin-left: 100px;
-    overflow: hidden;
+    align-items: center;
 }
+
 
 .hero__focus-text{
     animation-duration: 5s;

@@ -9,12 +9,15 @@
     justify-content: space-between;
 }
 
+.header__boxin{
+    display: flex;
+    align-items: center;
+}
+
 .header__menu-list{
-    padding-top: 25px;
     background: $white;
     width: 232px;
     height: 700px;
-    margin: 25px 0 0 205px;
 }
 
 .header__menu{
