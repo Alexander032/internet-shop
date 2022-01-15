@@ -129,6 +129,20 @@ a.cart__close-fon:active{
     color:$red;
 }
 
+.cartIconWrap{
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    color: white;
+    background: #f16d7f;
+    border-radius: 50%;
+    position: absolute;
+    text-align: center;
+    font-size: 12px;
+    line-height: 19px;
+    top: 12px;
+}
+
 @media screen and (min-width:767px) and (max-width:1140px) {
     .container{
         max-width: 767px;

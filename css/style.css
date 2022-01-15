@@ -462,7 +462,7 @@ a.sale__kids:active {
 .sale__women {
   background-image: url(../img/SaleWomen.jpg);
   display: block;
-  padding: 105px 103px;
+  padding: 91px 103px;
   box-sizing: border-box;
   width: 360px;
   text-decoration: none;
@@ -1602,6 +1602,20 @@ a.cart__close-fon:active {
 
 .cart__sub-but-list:active {
   color: red;
+}
+
+.cartIconWrap {
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+  color: white;
+  background: #f16d7f;
+  border-radius: 50%;
+  position: absolute;
+  text-align: center;
+  font-size: 12px;
+  line-height: 19px;
+  top: 12px;
 }
 
 @media screen and (min-width: 767px) and (max-width: 1140px) {
