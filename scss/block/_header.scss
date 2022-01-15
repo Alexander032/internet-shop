@@ -27,6 +27,7 @@
 
 .header__box{
     display: flex;
+    align-items: center;
 }
 
 .header__logo{
@@ -87,11 +88,6 @@ a.header__search-click:active path:first-child {
     margin:37px 0 24px 34px ;
 }
 
-.button__click-menu{
-    display: flex;
-    align-items: baseline;
-}
-
 .header__button{
     border: none;
     background-color: transparent;
@@ -106,7 +102,6 @@ a.header__search-click:active path:first-child {
 .header__index-search{
     fill: #E8E8E8;
     position: absolute;
-    margin-top: 15px;
 }
 
 .header__index-search-ico{
@@ -153,6 +148,15 @@ a.header__search-click:active path:first-child {
     .header__box{
         margin-left: 32px;
     }
+    
+    .header__menu-list{
+        padding-top: 25px;
+        background: $white;
+        width: 210px;
+        height: 333px;
+        margin: 25px 0 0 0;
+    }
+    
 }
 
 @media screen and (min-width:375px) and (max-width:767px) {
@@ -172,6 +176,12 @@ a.header__search-click:active path:first-child {
 
     .button__click-menu{
         margin-right: 20px;
+    }
+}
+@media (max-width:375px) {
+    .container{ 
+        width: 311px;
+        margin: 0 auto;
     }
 
     .header__container{
