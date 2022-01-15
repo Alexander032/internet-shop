@@ -158,33 +158,6 @@ a.cart__close-fon:active{
     top: 12px;
 }
 
-.basket{
-    position: absolute;
-    z-index: 3;
-    right: 0;
-    top: 37px;
-    background: white;
-    padding: 10px;
-    border: 1px solid #ebebeb;
-    border-radius: 3px;
-    font-size: 14px;
-}
-
-.basketRow{
-    
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
-    margin-bottom: 10px;
-    border-bottom: 1px solid #ebebeb;
-    padding-bottom: 10px;
-    
-}
-
-.hidden {
-    display: none;
-}
-
 @media screen and (min-width:767px) and (max-width:1140px) {
     .container{
         max-width: 767px;
