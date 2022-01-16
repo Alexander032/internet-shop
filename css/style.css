@@ -2221,5 +2221,27 @@ a.cart__close-fon:active {
     max-width: 375px;
     margin: 0 auto;
   }
+  .product__icon-block {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .product__icon-block-cont {
+    margin-top: 20px;
+  }
+  .products__text-p {
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 326px;
+    height: 105px;
+  }
+  .prod-img1 {
+    width: 174px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
