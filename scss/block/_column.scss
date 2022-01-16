@@ -22,6 +22,14 @@
     position: relative;
 }
 
+.column__list1{
+    background: $white-wh;
+    width: 360px;
+    height: 581px;
+    position: relative;
+}
+
+
 .column__product-overlay:before{
     content: '';
     width: 100%;
